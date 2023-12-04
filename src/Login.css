@@ -1,0 +1,105 @@
+.login-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #92d7ce;
+  }
+  
+  .login-container {
+    /* border: 1px solid #227850; */
+    border-radius: 10px;
+    /* background-color: #b4e9e9; */
+    background: linear-gradient(to right, #0af295, #03211e); /* Gradient color combination */
+    padding: 60px;
+    /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); */
+    animation: glowAnimation 2s infinite; /* Apply the animation */
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3), 0px 0px 40px rgba(0, 0, 0, 0.2); /* Glowing effect */
+    width: 300px;
+  }
+
+  @keyframes glowAnimation {
+  0% {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  50% {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+  }
+  100% {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+}
+  
+  .login-container h2 {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    color: #142d47;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    width: 150px;
+    color: rgb(255, 255, 255);
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #093726;
+    border-radius: 3px;
+    margin-left: 5px;
+    background-color: lightblue;
+  }
+
+  .forgot{
+    display: flex;
+    justify-content: right;
+    color: rgb(114, 188, 248);
+  
+  }
+  
+  button {
+    background-color: #278674;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    box-shadow: 0px 0px 10px rgba(28, 84, 148, 0.2);
+    animation: glowAnimationbutton 2s infinite; /* Apply the animation */
+  }
+  @keyframes glowAnimationbutton {
+    0% {
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    }
+    50% {
+      box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+    }
+    100% {
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    }
+  }
+
+.buttom{
+  display: flex;
+  justify-content: center;
+}
+
+.img{
+  height: 150px;
+  display: flex;
+  justify-content: center;
+}
+  
+  
